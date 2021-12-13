@@ -1,0 +1,5 @@
+.idea/
+venv/
+ansible.cfg
+xlsx_inventory.cfg
+.~lock.*

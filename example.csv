@@ -1,0 +1,10 @@
+VM Name,Project,Datacenter,Environment,FQDN,ansible_host,ansible_ssh_user,ansible_connection,mysql_root_pass
+dev-iceflex-app01,iceflex,FRA-1,Development,app01.dev.iceflex.com,10.20.10.02,admin-user,,
+dev-iceflex-app02,iceflex,FRA-2,Development,app02.dev.iceflex.com,10.20.10.02,admin-user,,
+dev-iceflex-app03,iceflex,FRA-3,Development,app03.dev.iceflex.com,10.20.10.03,admin-user,,
+dev-iceflex-sql01,iceflex,FRA-1,Development,sql01.dev.iceflex.com,10.20.11.01,admin-user,,Affenzirkus123!
+dev-iceflex-sto01,iceflex,FRA-1,Development,sto01.dev.iceflex.com,10.20.12.01,storage-admin,,
+dev-iceflex-prx01,iceflex,FRA-1,Development,prx01.dev.iceflex.com,10.20.13.01,admin-user,,
+dev-zornfix-app01,zornfix,FRA-1,Development,app01.dev.zornfix.uk,,,local,
+dev-zornfix-sql01,zornfix,FRA-1,Development,sql01.dev.zornfix.uk,10.13.37.01,mysql-admin,,Implosionsstrudel123!
+dev-zornfix-sto01,zornfix,FRA-1,Development,sto01.dev.zornfix.uk,10.13.37.02,storage-admin,,
