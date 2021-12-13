@@ -101,11 +101,19 @@ def parse_args():
         "--host", help="List details about the specified host", default=None
     )
     group.add_argument("--config", action="store_true", help="Create Config File")
-    arg_parser.add_argument("--file", required='--config' in sys.argv, help="CSV file used by csv_inventory.py")
+    arg_parser.add_argument(
+        "--file",
+        required="--config" in sys.argv,
+        help="CSV file used by csv_inventory.py",
+    )
     arg_parser.add_argument(
         "--group-by-col", default=None, help="Column to group hosts by (i.E. `B`)"
     )
-    arg_parser.add_argument("--hostname-col", required='--config' in sys.argv, help="Column containing the hostnames")
+    arg_parser.add_argument(
+        "--hostname-col",
+        required="--config" in sys.argv,
+        help="Column containing the hostnames",
+    )
     return arg_parser.parse_args()
 
 
