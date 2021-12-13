@@ -1,12 +1,12 @@
-# Excel/Ansible Dynamic Inventory script
+# CSV/Ansible Dynamic Inventory script
 
 ## ToC
 
 - [Intro](#intro)
-- [Compatibility](#compatibility)
+- [Requirements](#requirements)
 - [Configuration](#configuration)
 - [Example File](#example-file)
-- [Grouping](#grouping)
+- [Grouping and Hostname](#grouping-and-hostnames)
 - [Hosts variables](#host-variables)
 - [Usage](#usage)
 - [Licens](#license)
@@ -21,7 +21,7 @@ This is helpful whenever you get an CSV export from another Tool, containing Inf
 
 The following requirements must be installed to use this Inventory Script:
 
-- [Python](https://www.python.org/) - Python programming language
+- [Python3](https://www.python.org/) - Python3 programming language
 
 ## Configuration
 
